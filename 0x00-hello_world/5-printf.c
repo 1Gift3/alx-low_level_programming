@@ -1,6 +1,6 @@
 include < stdio.h >
 /**
- * main -a program printing a line using printf function
+ * main - A program that prints a line using the printf function
  * Return: 0(success)
  */
 
