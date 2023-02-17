@@ -1,2 +1,2 @@
 #!/bin/bash
-gcc -S -msam=intel $CFILE
+gcc -S -msam=intel $CFILE main.c
