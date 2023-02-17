@@ -1,6 +1,0 @@
-total 8
-drwxr-xr-x 2 root root  67 Feb 16 11:47 .
-drwxr-xr-x 4 root root  59 Feb 16 11:25 ..
--rw-r--r-- 1 root root 145 Feb 16 11:44 0-preprocessor
--rw-r--r-- 1 root root   0 Feb 16 11:47 ls_cwd_content
--rw-r--r-- 1 root root  31 Feb 16 11:27 README.md
