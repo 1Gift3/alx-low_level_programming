@@ -1,11 +1,11 @@
 #include "main.h"
-	/**
-	 * main - entry point
-	 * Description: 'Prints _putchar to stdout
-	 * Return: 0 Always (success)
-	 */
+/**
+ * main - Entry point
+ *
+ * Return: 0 Always (success)
+*/
 
-	int main(void)
+int main(void)
 {
 	_putchar('_');
 	_putchar('p');
