@@ -10,7 +10,7 @@ void print_rev(char *s)
 	int longi = 0;
 	int p;
 
-	while (*s != '\0')
+	while (s[longi] != '\0')
 	{
 		longi++;
 		s++;
@@ -19,7 +19,6 @@ void print_rev(char *s)
 	for (p = longi - 1; longi > = 0; p--)
 	{
 		_putchar(*s);
-s--;
 }
-_putchar('\n');
+	_putchar('\n');
 }
