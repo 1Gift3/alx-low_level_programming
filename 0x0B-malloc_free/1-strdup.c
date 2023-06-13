@@ -3,9 +3,9 @@
 #include "main.h"
 
 /**
- * _strdup - duplicate to new memory space location
+ * _strdup - Duplicate to a new memory space location
  * @str:char
- * Return:0
+ * Return: NULL
  */
 char *_strdup(char *str)
 {
