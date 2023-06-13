@@ -1,20 +1,20 @@
 #include "main.h"
 #include <stdlib.h>
 /**
- * argstostr - main entry
- * @ac: int input
- * @av: double pointer array
- * Return: 0
+ * argstostr - Main entry
+ * @ac: int of input
+ * @av: double pointer of array
+ * Return: nothing
  */
 char *argstostr(int ac, char **av)
 {
 
-	int i, n, r = 0, l = 0;
+	int a, n, r = 0, l = 0;
 	char *str;
 
 	if (ac == 0 || av == NULL)
 		return (NULL);
-	for (i = 0; i < ac; i++)
+	for (a = 0; a < ac; a++)
 	{
 		for (n = 0; av[i][n]; n++)
 			l++;
@@ -23,11 +23,11 @@ char *argstostr(int ac, char **av)
 	str = malloc(sizeof(char) * l + 1);
 	if (str == NULL)
 		return (NULL);
-	for (i = 0; i < ac; i++)
+	for (a = 0; a < ac; a++)
 	{
-		for (n = 0; av[i][n]; n++)
+		for (n = 0; av[a][n]; n++)
 		{
-			str[r] = av[i][n];
+			str[r] = av[a][n];
 			r++;
 		}
 		if (str[r] == '\0')
