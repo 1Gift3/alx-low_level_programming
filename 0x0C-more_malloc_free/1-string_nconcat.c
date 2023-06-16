@@ -2,7 +2,7 @@
 #include"main.h"
 
 /**
- * atring_nconcat - Concatenates n bytes of a string to another string
+ * string_nconcat - Concatenates n bytes of a string to another string
  * @s1:String to append to
  * @s2:String to concatenate from
  * @n:NUmber of bytes from s2 to concatenate to s1
@@ -11,7 +11,6 @@
  */
 
 char *string_nconcat(char *s1, char *s2, unsigned int n)
-
 {
 	char *s;
 	unsigned int i = 0, j = 0, len1 = 0, len2 = 0;
