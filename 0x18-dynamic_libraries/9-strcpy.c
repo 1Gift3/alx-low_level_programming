@@ -3,8 +3,7 @@
 #include <stdlib.h>
 #include <ctype.h>
 #include <string.h>
-
-char *_strpbrk(char *s, char *accept)
+char *_strcpy(char *dest, char *src)
 {
-	return strpbrk(s, accept);
+    return strcpy(dest, src);
 }
